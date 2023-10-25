@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JS calculator | by Kosachev Egor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap.css'>
+    
+    <script src="https://kit.fontawesome.com/f8ba39741a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container position-absolute top-50 start-50 translate-middle border border-secondary rounded w-50">
+        <div class="row">
+            <h2 class="h1 text-end" id="display">0</h2>
+        </div>
+        <div class="row border-top">
+            <div class="row justify-content-around p-1">
+                <div class="col-3">
+                    <button id="n7" type="button" class="w-100 btn btn-outline-primary fs-3">7</button>
+                </div>
+                <div class="col-3">
+                    <button id="n8" type="button" class="w-100 btn btn-outline-primary fs-3">8</button>
+                </div>
+                <div class="col-3">
+                    <button id="n9" type="button" class="w-100 btn btn-outline-primary fs-3">9</button>
+                </div>
+                <div class="col-3">
+                    <button id="mul" type="button" class="w-100 btn btn-outline-secondary fs-3"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+            <div class="row justify-content-around p-1">
+                <div class="col-3">
+                    <button id="n4" type="button" class="w-100 btn btn-outline-primary fs-3">4</button>
+                </div>
+                <div class="col-3">
+                    <button id="n5" type="button" class="w-100 btn btn-outline-primary fs-3">5</button>
+                </div>
+                <div class="col-3">
+                    <button id="n6" type="button" class="w-100 btn btn-outline-primary fs-3">6</button>
+                </div>
+                <div class="col-3">
+                    <button id="div" type="button" class="w-100 btn btn-outline-secondary fs-3"><i class="fa-solid fa-divide"></i></button>
+                </div>
+            </div>
+            <div class="row justify-content-around p-1">
+                <div class="col-3">
+                    <button id="n1" type="button" class="w-100 btn btn-outline-primary fs-3">1</button>
+                </div>
+                <div class="col-3">
+                    <button id="n2" type="button" class="w-100 btn btn-outline-primary fs-3">2</button>
+                </div>
+                <div class="col-3">
+                    <button id="n3" type="button" class="w-100 btn btn-outline-primary fs-3">3</button>
+                </div>
+                <div class="col-3">
+                    <button id="pls" type="button" class="w-100 btn btn-outline-secondary fs-3"><i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+            <div class="row justify-content-around p-1">
+                <div class="col-3">
+                    <button id="n0" type="button" class="w-100 btn btn-outline-primary fs-3">0</button>
+                </div>
+                <div class="col-3">
+                    <button id="ac" type="button" class="w-100 btn btn-outline-danger fs-3">AC</button>
+                </div>
+                <div class="col-3">
+                    <button id="eq" type="button" class="w-100 btn btn-outline-success fs-3"><i class="fa-solid fa-equals"></i></button>
+                </div>
+                <div class="col-3">
+                    <button id="min" type="button" class="w-100 btn btn-outline-secondary fs-3"><i class="fa-solid fa-minus"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='./js/main.js'></script>
+</body>
+</html>
